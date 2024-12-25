@@ -1555,7 +1555,11 @@ const SAMPLE_DATA = [
 ];
 
 const SurveyGrid = () => {
-	const [surveys] = useState(SAMPLE_DATA);
+	const [surveys] = useState(
+		SAMPLE_DATA.sort((a, b) =>
+			a["Website Name"].localeCompare(b["Website Name"])
+		)
+	);
 
 	return (
 		<div className="max-w-7xl mx-auto px-4 py-8">
