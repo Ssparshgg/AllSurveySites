@@ -27,6 +27,13 @@ const SurveyCard = ({
 	specialFeatures,
 	notes,
 }: SurveyCardProps) => {
+	// Calculate a summary of the program
+	const programSummary = [
+		`Min Payout: $${minPayout}`,
+		`Survey Pay: $${avgPay.min}-$${avgPay.max}`,
+		`Frequency: ${frequency}`,
+	].join(" • ");
+
 	return (
 		<div className="bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow p-6 border border-gray-100">
 			<div className="flex items-center justify-between mb-4">
@@ -104,6 +111,11 @@ const SurveyCard = ({
 						</div>
 					</div>
 				)}
+
+				<div className="text-sm text-gray-600 font-medium border-t pt-3">
+					<p className="mb-2">Program Summary:</p>
+					<p>{programSummary}</p>
+				</div>
 
 				{notes && <p className="text-sm text-gray-600">{notes}</p>}
 			</div>
