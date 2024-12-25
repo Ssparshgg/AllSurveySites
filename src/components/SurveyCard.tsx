@@ -28,11 +28,7 @@ const SurveyCard = ({
 	notes,
 }: SurveyCardProps) => {
 	// Calculate a summary of the program
-	const programSummary = [
-		`Min Payout: $${minPayout}`,
-		`Survey Pay: $${avgPay.min}-$${avgPay.max}`,
-		`Frequency: ${frequency}`,
-	].join(" • ");
+	const programSummary = [].join(" • ");
 
 	return (
 		<div className="bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow p-6 border border-gray-100">
