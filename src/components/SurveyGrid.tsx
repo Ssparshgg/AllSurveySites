@@ -1592,7 +1592,6 @@ const SurveyGrid = () => {
 							...survey["Special Features"].Others,
 						]}
 						notes={survey["Additional Notes"]}
-						referralProgram={survey["Referral Program"].Earnings}
 					/>
 				))}
 			</div>

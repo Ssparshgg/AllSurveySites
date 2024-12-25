@@ -14,7 +14,6 @@ interface SurveyCardProps {
 	requirements: string[];
 	specialFeatures: string[];
 	notes: string;
-	referralProgram: string;
 }
 
 const SurveyCard = ({
@@ -27,7 +26,6 @@ const SurveyCard = ({
 	requirements,
 	specialFeatures,
 	notes,
-	referralProgram,
 }: SurveyCardProps) => {
 	return (
 		<div className="bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow p-6 border border-gray-100">
@@ -106,13 +104,6 @@ const SurveyCard = ({
 						</div>
 					</div>
 				)}
-
-				<div>
-					<h4 className="text-sm font-semibold text-gray-700 mb-2">
-						Referral Program
-					</h4>
-					<p className="text-sm text-gray-600">{referralProgram}</p>
-				</div>
 
 				{notes && <p className="text-sm text-gray-600">{notes}</p>}
 			</div>
