@@ -13,32 +13,55 @@ const SAMPLE_DATA = [
 		frequency: "Daily",
 		paymentMethods: ["PayPal", "Bank Transfer"],
 		requirements: ["Email verification", "18+"],
-		hasReferral: true,
 		rating: 4.5,
 		specialFeatures: ["Mobile App"],
 		notes: "Best for daily survey takers with quick payment processing",
 	},
 	{
-		id: 2,
-		name: "OpinionHub",
-		logo: "https://images.unsplash.com/photo-1611162616305-c69b3037f77d?w=128&h=128&fit=crop",
+		id: 3,
+		name: "SurveyMaster",
+		logo: "https://images.unsplash.com/photo-1611162618071-b39a2ec055fb?w=128&h=128&fit=crop",
 		url: "https://example.com",
-		minPayout: 5.0,
-		avgPay: 1.75,
-		frequency: "Weekly",
-		paymentMethods: ["PayPal", "Gift Cards"],
-		requirements: ["Phone verification"],
-		hasReferral: false,
-		rating: 4.2,
-		notes: "Wide variety of survey topics available",
+		minPayout: 15.0,
+		avgPay: 3.0,
+		frequency: "Daily",
+		paymentMethods: ["PayPal", "Crypto", "Bank Transfer"],
+		requirements: ["ID verification"],
+		rating: 4.7,
+		specialFeatures: ["High Paying", "Mobile App"],
+		notes: "Premium survey platform with higher payouts",
 	},
-	// Add more sample data as needed
+	{
+		id: 4,
+		name: "GlobalSurveys",
+		logo: "https://images.unsplash.com/photo-1611162616475-46b635cb6868?w=128&h=128&fit=crop",
+		url: "https://example.com",
+		minPayout: 8.0,
+		avgPay: 2.0,
+		frequency: "Daily",
+		paymentMethods: ["PayPal"],
+		requirements: ["Email verification"],
+		rating: 4.1,
+		notes: "International surveys available",
+	},
+	{
+		id: 5,
+		name: "QuickSurvey",
+		logo: "https://images.unsplash.com/photo-1611162617263-4ec3060a058e?w=128&h=128&fit=crop",
+		url: "https://example.com",
+		minPayout: 3.0,
+		avgPay: 1.0,
+		frequency: "Instant",
+		paymentMethods: ["PayPal", "Gift Cards"],
+		requirements: ["None"],
+		rating: 3.9,
+		specialFeatures: ["Quick Pays"],
+		notes: "Perfect for quick, short surveys",
+	},
 ];
 
 const SurveyGrid = () => {
-	const [surveys] = useState(
-		SAMPLE_DATA.filter((survey) => survey.name !== "OpinionHub")
-	);
+	const [surveys] = useState(SAMPLE_DATA);
 
 	return (
 		<div className="max-w-7xl mx-auto px-4 py-8">
