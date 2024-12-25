@@ -108,12 +108,10 @@ const SurveyCard = ({
 					</div>
 				)}
 
-				<div className="text-sm text-gray-600 font-medium border-t pt-3">
-					<p className="mb-2">Program Summary:</p>
-					<p>{programSummary}</p>
+				<div className="text-sm text-gray-600 font-medium">
+					<p className="mb-2 font-bold text-gray-900">Program Summary:</p>
+					{notes && <p className="text-sm text-gray-600">{notes}</p>}
 				</div>
-
-				{notes && <p className="text-sm text-gray-600">{notes}</p>}
 			</div>
 		</div>
 	);
