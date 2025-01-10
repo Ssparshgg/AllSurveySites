@@ -2,9 +2,14 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
 export default defineConfig({
-	base: "/AllSurveySites/",
+	// Change this to match your deployment URL path
+	base: "/", // Use "/" if deploying to root domain
 	plugins: [react()],
-	optimizeDeps: {
-		exclude: ["lucide-react"],
+	build: {
+		rollupOptions: {
+			output: {
+				manualChunks: undefined,
+			},
+		},
 	},
 });
