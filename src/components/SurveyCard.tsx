@@ -15,6 +15,7 @@ interface SurveyCardProps {
 	requirements: string[];
 	specialFeatures: string[];
 	notes: string;
+	trustpilotRating: string;
 }
 
 const SurveyCard = ({
@@ -27,6 +28,7 @@ const SurveyCard = ({
 	requirements,
 	specialFeatures,
 	notes,
+	trustpilotRating,
 }: SurveyCardProps) => {
 	const [isFlipped, setIsFlipped] = useState(false);
 
@@ -99,6 +101,15 @@ const SurveyCard = ({
 						<div className="text-sm text-gray-300 flex-grow">
 							<p className="font-bold text-white mb-2">Program Summary:</p>
 							<p className="mb-4">{notes}</p>
+						</div>
+
+						<div className="mb-4 text-sm">
+							<p className="text-gray-300">
+								Trustpilot Rating:{" "}
+								<span className="text-white font-semibold">
+									{trustpilotRating}
+								</span>
+							</p>
 						</div>
 
 						<div className="flex gap-3 mt-auto">

@@ -6,7 +6,7 @@ const SAMPLE_DATA = [
 	[
 		{
 			"Website Name": "American Consumer Opinion",
-
+			"Trustpilot Ratings": "2.1",
 			"Website URL": "https://acop.com/",
 			"Registration Requirements": {
 				Age: 14,
@@ -34,7 +34,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "appKarma",
-
+			"Trustpilot Ratings": "2.5",
 			"Website URL": "https://www.appkarma.io/",
 			"Registration Requirements": {
 				Age: 13,
@@ -62,7 +62,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "AttaPoll",
-
+			"Trustpilot Ratings": "3.8",
 			"Website URL": "https://attapoll.com/",
 			"Registration Requirements": {
 				Age: 16,
@@ -89,7 +89,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "Banana Bucks",
-
+			"Trustpilot Ratings": "2.3",
 			"Website URL": "https://www.bananabucks.co/",
 			"Registration Requirements": {
 				Age: 18,
@@ -117,6 +117,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "BrandBee",
+			"Trustpilot Ratings": "0",
 			"Website URL": "https://www.brandbee.io/",
 			"Registration Requirements": {
 				Age: 18,
@@ -144,7 +145,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "Branded Surveys",
-
+			"Trustpilot Ratings": "4.1",
 			"Website URL": "https://surveys.gobranded.com/",
 			"Registration Requirements": {
 				Age: 16,
@@ -171,7 +172,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "CashKarma",
-
+			"Trustpilot Ratings": "2.4",
 			"Website URL": "https://www.cashkarma.io/",
 			"Registration Requirements": {
 				Age: 16,
@@ -199,7 +200,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "Crowdtap",
-
+			"Trustpilot Ratings": "1.9",
 			"Website URL": "https://crowdtap.com/",
 			"Registration Requirements": {
 				Age: 13,
@@ -227,7 +228,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "Drumo",
-
+			"Trustpilot Ratings": "4.5",
 			"Website URL": "https://drumo.com/",
 			"Registration Requirements": {
 				Age: 12,
@@ -255,7 +256,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "Earnably",
-
+			"Trustpilot Ratings": "4.2",
 			"Website URL": "https://earnably.com/surveys",
 			"Registration Requirements": {
 				Age: 16,
@@ -283,7 +284,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "Ebuno",
-
+			"Trustpilot Ratings": "2.6",
 			"Website URL": "https://ebuno.net/",
 			"Registration Requirements": {
 				Age: 18,
@@ -311,7 +312,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "eRewards",
-
+			"Trustpilot Ratings": "4.1",
 			"Website URL": "https://www.e-rewards.com/",
 			"Registration Requirements": {
 				Age: 13,
@@ -339,7 +340,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "Eureka",
-
+			"Trustpilot Ratings": "1.6",
 			"Website URL": "https://eurekasurveys.com/",
 			"Registration Requirements": {
 				Age: 18,
@@ -367,7 +368,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "FeaturePoints",
-
+			"Trustpilot Ratings": "3.1",
 			"Website URL": "https://featurepoints.com/landing",
 			"Registration Requirements": {
 				Age: 16,
@@ -395,7 +396,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "Five Surveys",
-
+			"Trustpilot Ratings": "4.1",
 			"Website URL": "https://fivesurveys.com/",
 			"Registration Requirements": {
 				Age: 18,
@@ -422,7 +423,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "Focus Group",
-
+			"Trustpilot Ratings": "2.1",
 			"Website URL": "https://www.focusgroup.com/",
 			"Registration Requirements": {
 				Age: 18,
@@ -450,7 +451,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "Freecash",
-
+			"Trustpilot Ratings": "4.7",
 			"Website URL": "https://freecash.com/en",
 			"Registration Requirements": {
 				Age: 16,
@@ -486,7 +487,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "FusionCash",
-
+			"Trustpilot Ratings": "2.4",
 			"Website URL": "https://www.fusioncash.net/",
 			"Registration Requirements": {
 				Age: 13,
@@ -513,7 +514,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "Gift Hunter Club",
-
+			"Trustpilot Ratings": "2.4",
 			"Website URL": "https://gifthunterclub.com/",
 			"Registration Requirements": {
 				Age: 18,
@@ -542,6 +543,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "Google Opinion Rewards",
+			"Trustpilot Ratings": "Not listed",
 			"Website URL": "https://surveys.google.com/google-opinion-rewards/",
 			"Registration Requirements": {
 				Age: 18,
@@ -568,7 +570,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "GrabPoints",
-
+			"Trustpilot Ratings": "4.5",
 			"Website URL": "https://grabpoints.com/",
 			"Registration Requirements": {
 				Age: 13,
@@ -596,6 +598,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "Happy Surveys",
+			"Trustpilot Ratings": "Not listed",
 			"Website URL": "https://happysurveys.co/",
 			"Registration Requirements": {
 				Age: 18,
@@ -623,7 +626,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "Harris Poll Online",
-
+			"Trustpilot Ratings": "2.3",
 			"Website URL": "https://www.harrispollonline.com/",
 			"Registration Requirements": {
 				Age: 13,
@@ -651,7 +654,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "HeyCash",
-
+			"Trustpilot Ratings": "4.5",
 			"Website URL": "https://heycash.com/",
 			"Registration Requirements": {
 				Age: 16,
@@ -679,7 +682,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "HeyPiggy",
-
+			"Trustpilot Ratings": "4.6",
 			"Website URL": "https://www.heypiggy.com/",
 			"Registration Requirements": {
 				Age: 14,
@@ -706,7 +709,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "InboxDollars",
-
+			"Trustpilot Ratings": "4.1",
 			"Website URL": "https://www.inboxdollars.com/",
 			"Registration Requirements": {
 				Age: 18,
@@ -734,7 +737,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "InboxPays",
-
+			"Trustpilot Ratings": "1.3",
 			"Website URL": "https://www.inboxpays.com/",
 			"Registration Requirements": {
 				Age: 18,
@@ -762,7 +765,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "InboxPounds",
-
+			"Trustpilot Ratings": "3.4",
 			"Website URL": "https://www.inboxpounds.co.uk/",
 			"Registration Requirements": {
 				Age: 18,
@@ -790,7 +793,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "Ipsos i-Say",
-
+			"Trustpilot Ratings": "4.2",
 			"Website URL": "https://www.ipsosisay.com/en-us",
 			"Registration Requirements": {
 				Age: 16,
@@ -817,6 +820,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "LifePoints",
+			"Trustpilot Ratings": "4",
 			"Website URL": "https://www.lifepointspanel.com/",
 			"Registration Requirements": {
 				Age: 16,
@@ -844,7 +848,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "LootUp",
-
+			"Trustpilot Ratings": "4.3",
 			"Website URL": "http://lootup.me/",
 			"Registration Requirements": {
 				Age: 16,
@@ -871,7 +875,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "Lyssna",
-
+			"Trustpilot Ratings": "3.2",
 			"Website URL": "https://www.lyssna.com/",
 			"Registration Requirements": {
 				Age: 18,
@@ -899,6 +903,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "Milieu Surveys",
+			"Trustpilot Ratings": "Not listed",
 			"Website URL": "https://www.mili.eu/sg/community",
 			"Registration Requirements": {
 				Age: 16,
@@ -925,7 +930,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "MobileXpression",
-
+			"Trustpilot Ratings": "2.5",
 			"Website URL": "https://rewards.mobilexpression.com/",
 			"Registration Requirements": {
 				Age: 16,
@@ -953,7 +958,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "Mobrog",
-
+			"Trustpilot Ratings": "4.4",
 			"Website URL": "https://www.mobrog.com/",
 			"Registration Requirements": {
 				Age: 18,
@@ -980,7 +985,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "MyPoints",
-
+			"Trustpilot Ratings": "4.3",
 			"Website URL": "https://www.mypoints.com/login",
 			"Registration Requirements": {
 				Age: 13,
@@ -1008,7 +1013,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "MySoapBox",
-
+			"Trustpilot Ratings": "1.9",
 			"Website URL": "https://www.mysoapbox.com/",
 			"Registration Requirements": {
 				Age: 13,
@@ -1036,6 +1041,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "MyView",
+			"Trustpilot Ratings": "3",
 			"Website URL": "https://www.myview.com/",
 			"Registration Requirements": {
 				Age: 14,
@@ -1062,7 +1068,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "Nielsen",
-
+			"Trustpilot Ratings": "4.2",
 			"Website URL": "https://www.nielsen.com/",
 			"Registration Requirements": {
 				Age: 18,
@@ -1090,6 +1096,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "Nortstatpanel",
+			"Trustpilot Ratings": "4",
 			"Website URL": "https://www.norstatpanel.com/",
 			"Registration Requirements": {
 				Age: 14,
@@ -1117,7 +1124,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "Opinion Bureau",
-
+			"Trustpilot Ratings": "1.5",
 			"Website URL": "https://www.opinionbureau.com/login",
 			"Registration Requirements": {
 				Age: 18,
@@ -1144,7 +1151,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "Opinion Edge",
-
+			"Trustpilot Ratings": "2.7",
 			"Website URL": "https://panel.opinion-edge.com/",
 			"Registration Requirements": {
 				Age: 18,
@@ -1171,7 +1178,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "Opinion Outpost",
-
+			"Trustpilot Ratings": "4.2",
 			"Website URL": "ww.opinionoutpost.com/",
 			"Registration Requirements": {
 				Age: 16,
@@ -1199,7 +1206,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "Opinion World",
-
+			"Trustpilot Ratings": "4.2",
 			"Website URL": "https://www.opinionworld.com/",
 			"Registration Requirements": {
 				Age: 16,
@@ -1226,7 +1233,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "OpinionPioneer",
-
+			"Trustpilot Ratings": "2.1",
 			"Website URL": "https://opinionpioneer.com/",
 			"Registration Requirements": {
 				Age: 13,
@@ -1253,7 +1260,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "PaidViewPoint",
-
+			"Trustpilot Ratings": "2.8",
 			"Website URL": "https://app.paidviewpoint.com/",
 			"Registration Requirements": {
 				Age: 15,
@@ -1280,7 +1287,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "Panda Research",
-
+			"Trustpilot Ratings": "2.5",
 			"Website URL": "https://www.pandaresearch.com/",
 			"Registration Requirements": {
 				Age: 18,
@@ -1307,7 +1314,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "Panel Champ",
-
+			"Trustpilot Ratings": "1.8",
 			"Website URL": "https://www.panelchamp.com/",
 			"Registration Requirements": {
 				Age: 16,
@@ -1334,7 +1341,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "Pawns.app",
-
+			"Trustpilot Ratings": "4.4",
 			"Website URL": "https://pawns.app/",
 			"Registration Requirements": {
 				Age: 14,
@@ -1362,7 +1369,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "PineCone Research",
-
+			"Trustpilot Ratings": "1.6",
 			"Website URL": "https://members.pineconeresearch.com/",
 			"Registration Requirements": {
 				Age: 18,
@@ -1393,7 +1400,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "PointClub",
-
+			"Trustpilot Ratings": "1.3",
 			"Website URL": "https://www.pointclub.com/",
 			"Registration Requirements": {
 				Age: 18,
@@ -1421,7 +1428,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "Points2Shop",
-
+			"Trustpilot Ratings": "1.4",
 			"Website URL": "https://www.points2shop.com/",
 			"Registration Requirements": {
 				Age: 18,
@@ -1448,7 +1455,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "Poll Pay",
-
+			"Trustpilot Ratings": "4.6",
 			"Website URL": "https://www.pollpay.app/",
 			"Registration Requirements": {
 				Age: 16,
@@ -1476,7 +1483,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "Prime Opinion",
-
+			"Trustpilot Ratings": "4.4",
 			"Website URL": "https://www.primeopinion.com/",
 			"Registration Requirements": {
 				Age: 18,
@@ -1503,7 +1510,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "PrizeRebel",
-
+			"Trustpilot Ratings": "3.1",
 			"Website URL": "https://www.prizerebel.com/",
 			"Registration Requirements": {
 				Age: 16,
@@ -1531,7 +1538,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "Product Report Card",
-
+			"Trustpilot Ratings": "4.4",
 			"Website URL": "https://www.productreportcard.com/",
 			"Registration Requirements": {
 				Age: 18,
@@ -1559,7 +1566,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "Prolific",
-
+			"Trustpilot Ratings": "4.6",
 			"Website URL": "https://auth.prolific.com/",
 			"Registration Requirements": {
 				Age: 18,
@@ -1586,7 +1593,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "Qmee",
-
+			"Trustpilot Ratings": "4.1",
 			"Website URL": "https://www.qmee.com/",
 			"Registration Requirements": {
 				Age: 16,
@@ -1613,7 +1620,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "QuickThoughts",
-
+			"Trustpilot Ratings": "1.7",
 			"Website URL": "https://www.quickthoughtsapp.com/",
 			"Registration Requirements": {
 				Age: 18,
@@ -1640,7 +1647,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "RedMonkey",
-
+			"Trustpilot Ratings": "3.4",
 			"Website URL": "https://redmonkey.app/earn",
 			"Registration Requirements": {
 				Age: 18,
@@ -1668,7 +1675,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "Respondent",
-
+			"Trustpilot Ratings": "3.8",
 			"Website URL": "https://app.respondent.io/",
 			"Registration Requirements": {
 				Age: 18,
@@ -1695,7 +1702,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "Reward XP",
-
+			"Trustpilot Ratings": "4.5",
 			"Website URL": "https://www.rewardxp.com/",
 			"Registration Requirements": {
 				Age: 13,
@@ -1723,6 +1730,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "Rewards1",
+			"Trustpilot Ratings": "4",
 			"Website URL": "https://www.rewards1.com/",
 			"Registration Requirements": {
 				Age: 16,
@@ -1749,7 +1757,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "SayMore",
-
+			"Trustpilot Ratings": "1.8",
 			"Website URL": "https://www.saymore.io/Account/Join",
 			"Registration Requirements": {
 				Age: 18,
@@ -1776,7 +1784,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "SpiderMetrix",
-
+			"Trustpilot Ratings": "2.8",
 			"Website URL": "https://www.spidermetrix.com/",
 			"Registration Requirements": {
 				Age: 14,
@@ -1803,7 +1811,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "Superpay.me",
-
+			"Trustpilot Ratings": "3.7",
 			"Website URL": "https://superpay.me/",
 			"Registration Requirements": {
 				Age: 18,
@@ -1831,7 +1839,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "Surveoo",
-
+			"Trustpilot Ratings": "3.9",
 			"Website URL": "https://www.surveoo.com/en/",
 			"Registration Requirements": {
 				Age: 18,
@@ -1858,7 +1866,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "Survey Club",
-
+			"Trustpilot Ratings": "3.4",
 			"Website URL": "https://www.surveyclub.com/",
 			"Registration Requirements": {
 				Age: 13,
@@ -1886,6 +1894,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "Survey Junkie",
+			"Trustpilot Ratings": "4",
 			"Website URL": "https://www.surveyjunkie.com/",
 			"Registration Requirements": {
 				Age: 13,
@@ -1912,7 +1921,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "Survey Pop",
-
+			"Trustpilot Ratings": "1.6",
 			"Website URL": "https://surveypop.com/",
 			"Registration Requirements": {
 				Age: 16,
@@ -1941,6 +1950,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "Survey Savvy",
+			"Trustpilot Ratings": "3",
 			"Website URL": "https://surveysavvy.com/",
 			"Registration Requirements": {
 				Age: 13,
@@ -1967,7 +1977,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "Survey Spin",
-
+			"Trustpilot Ratings": "2.4",
 			"Website URL": "https://surveyspin.com/",
 			"Registration Requirements": {
 				Age: 18,
@@ -1996,7 +2006,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "Surveyeah",
-
+			"Trustpilot Ratings": "4.5",
 			"Website URL": "https://www.surveyeah.com/en/",
 			"Registration Requirements": {
 				Age: 18,
@@ -2024,7 +2034,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "SurveyLama",
-
+			"Trustpilot Ratings": "4.1",
 			"Website URL": "https://surveylama.com/en",
 			"Registration Requirements": {
 				Age: 16,
@@ -2051,6 +2061,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "SurveyMagic",
+			"Trustpilot Ratings": "Not listed",
 			"Website URL": "https://www.surveymagic.co/",
 			"Registration Requirements": {
 				Age: 18,
@@ -2078,7 +2089,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "Surveys on the Go",
-
+			"Trustpilot Ratings": "2.4",
 			"Website URL": "https://surveysonthego.com/",
 			"Registration Requirements": {
 				Age: 16,
@@ -2106,6 +2117,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "Surveys2Cash",
+			"Trustpilot Ratings": "4",
 			"Website URL": "https://surveys2cash.com/",
 			"Registration Requirements": {
 				Age: 18,
@@ -2133,7 +2145,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "Surveytime",
-
+			"Trustpilot Ratings": "3.5",
 			"Website URL": "https://surveytime.io/",
 			"Registration Requirements": {
 				Age: 16,
@@ -2161,7 +2173,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "Survimo",
-
+			"Trustpilot Ratings": "1.8",
 			"Website URL": "https://survimo.com/",
 			"Registration Requirements": {
 				Age: 18,
@@ -2188,6 +2200,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "Swagbucks",
+			"Trustpilot Ratings": "4",
 			"Website URL": "https://www.swagbucks.com/",
 			"Registration Requirements": {
 				Age: 13,
@@ -2215,6 +2228,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "Talk Online Panel",
+			"Trustpilot Ratings": "3",
 			"Website URL": "https://talkonlinepanel.com/gb",
 			"Registration Requirements": {
 				Age: 14,
@@ -2241,7 +2255,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "TaskBucks",
-
+			"Trustpilot Ratings": "2.5",
 			"Website URL": "https://www.taskbucks.com/",
 			"Registration Requirements": {
 				Age: 18,
@@ -2268,7 +2282,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "Tellwut",
-
+			"Trustpilot Ratings": "4.3",
 			"Website URL": "https://www.tellwut.com/",
 			"Registration Requirements": {
 				Age: 18,
@@ -2296,7 +2310,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "TGM Panel",
-
+			"Trustpilot Ratings": "3.8",
 			"Website URL": "https://tgmpanel.is/en/",
 			"Registration Requirements": {
 				Age: 18,
@@ -2323,7 +2337,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "The Opinion Panel",
-
+			"Trustpilot Ratings": "3.8",
 			"Website URL": "https://www.opinionpanel.co.uk/",
 			"Registration Requirements": {
 				Age: 16,
@@ -2350,7 +2364,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "The Panel Station",
-
+			"Trustpilot Ratings": "4.1",
 			"Website URL": "https://thepanellstation.com/",
 			"Registration Requirements": {
 				Age: 18,
@@ -2378,7 +2392,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "Timebucks",
-
+			"Trustpilot Ratings": "4.4",
 			"Website URL": "https://timebucks.com/",
 			"Registration Requirements": {
 				Age: 18,
@@ -2406,7 +2420,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "Toluna Influencers",
-
+			"Trustpilot Ratings": "4.1",
 			"Website URL": "https://www.toluna.com/",
 			"Registration Requirements": {
 				Age: 16,
@@ -2433,7 +2447,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "Triaba",
-
+			"Trustpilot Ratings": "2.8",
 			"Website URL": "https://www.triaba.com/",
 			"Registration Requirements": {
 				Age: 18,
@@ -2460,7 +2474,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "Unlock Surveys",
-
+			"Trustpilot Ratings": "2.8",
 			"Website URL": "https://www.unlocksurveys.com/",
 			"Registration Requirements": {
 				Age: 18,
@@ -2487,7 +2501,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "User Interviews",
-
+			"Trustpilot Ratings": "4.5",
 			"Website URL": "https://www.userinterviews.com/",
 			"Registration Requirements": {
 				Age: 18,
@@ -2514,7 +2528,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "Valued Opinions",
-
+			"Trustpilot Ratings": "4.4",
 			"Website URL": "https://www.valuedopinions.com/",
 			"Registration Requirements": {
 				Age: 17,
@@ -2541,6 +2555,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "Viewfruit",
+			"Trustpilot Ratings": "Not listed",
 			"Website URL": "https://ph.viewfruit.com/",
 			"Registration Requirements": {
 				Age: 18,
@@ -2567,7 +2582,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "YouGov",
-
+			"Trustpilot Ratings": "4.6",
 			"Website URL": "https://account.yougov.com/",
 			"Registration Requirements": {
 				Age: 14,
@@ -2594,7 +2609,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "ySense",
-
+			"Trustpilot Ratings": "3.5",
 			"Website URL": "https://www.ysense.com/login",
 			"Registration Requirements": {
 				Age: 13,
@@ -2622,7 +2637,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "ZoomBucks",
-
+			"Trustpilot Ratings": "4.5",
 			"Website URL": "https://www.zoombucks.com/",
 			"Registration Requirements": {
 				Age: 13,
@@ -2649,7 +2664,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "Nicequest",
-
+			"Trustpilot Ratings": "3.4",
 			"Website URL": "https://www.nicequest.com/us",
 			"Registration Requirements": {
 				Age: 16,
@@ -2681,7 +2696,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "Bzzagent",
-
+			"Trustpilot Ratings": "3.4",
 			"Website URL": "https://www.bzzagent.com/",
 			"Registration Requirements": {
 				Age: 18,
@@ -2709,6 +2724,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "Shopper's Voice",
+			"Trustpilot Ratings": "Not listed",
 			"Website URL": "https://www.shoppersvoice.com/",
 			"Registration Requirements": {
 				Age: 18,
@@ -2736,6 +2752,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "National Consumer Panel",
+			"Trustpilot Ratings": "Not listed",
 			"Website URL": "https://www.ncppanel.com/",
 			"Registration Requirements": {
 				Age: 18,
@@ -2766,9 +2783,14 @@ const SAMPLE_DATA = [
 
 const SurveyGrid = () => {
 	const [surveys] = useState(() => {
-		return SAMPLE_DATA[0].sort((a, b) =>
-			a["Website Name"].localeCompare(b["Website Name"])
-		);
+		return SAMPLE_DATA[0].sort((a, b) => {
+			// Convert ratings to numbers for comparison
+			const ratingA = parseFloat(a["Trustpilot Ratings"]) || 0;
+			const ratingB = parseFloat(b["Trustpilot Ratings"]) || 0;
+
+			// Sort by rating in descending order
+			return ratingB - ratingA;
+		});
 	});
 
 	return (
@@ -2779,6 +2801,7 @@ const SurveyGrid = () => {
 						key={`${survey["Website Name"]}-${index}`}
 						name={survey["Website Name"]}
 						url={survey["Website URL"]}
+						trustpilotRating={survey["Trustpilot Ratings"]}
 						minPayout={
 							parseFloat(
 								survey["Minimum Payout"].Other.replace(/[^0-9.]/g, "")
