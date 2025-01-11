@@ -64,7 +64,19 @@ const SurveyCard = ({
 									onClick={handleSignUp}
 									className="text-sm text-blue-300 hover:text-blue-200 flex items-center gap-1"
 								>
-									Visit <ExternalLink className="w-4 h-4" />
+									<img
+										src={`https://www.google.com/s2/favicons?domain=${url}&sz=128`}
+										alt={`${name} favicon`}
+										className="w-6 h-6 object-contain" // Increased from w-4 h-4
+										onError={(e) => {
+											const target = e.currentTarget as HTMLImageElement;
+											target.style.display = "none";
+											target.parentElement?.insertAdjacentHTML(
+												"beforeend",
+												'<ExternalLink className="w-6 h-6" />' // Increased fallback icon size too
+											);
+										}}
+									/>
 								</a>
 							</div>
 						</div>
