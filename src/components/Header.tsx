@@ -6,7 +6,7 @@ const Header = () => {
 			<div className="max-w-7xl mx-auto px-4 py-6">
 				<div className="flex flex-col items-center">
 					<h1 className="text-3xl font-bold text-white">All Survey Websites</h1>
-					<p className="text-gray-300 mt-1">No fluff. No ads. No referrals.</p>
+					<p className="text-gray-300 mt-1">No Ad, No Affiliates, No Fluff.</p>
 				</div>
 			</div>
 		</header>
