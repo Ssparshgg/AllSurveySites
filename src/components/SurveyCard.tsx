@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { ExternalLink } from "lucide-react";
+import { trackEvent } from "../utils/analytics";
 
 interface SurveyCardProps {
 	name: string;
@@ -29,8 +30,18 @@ const SurveyCard = ({
 }: SurveyCardProps) => {
 	const [isFlipped, setIsFlipped] = useState(false);
 
+	const handleSignUp = () => {
+		trackEvent("Survey", "signup_click", name);
+	};
+
 	const handleFlip = () => {
+		trackEvent("Survey", "card_flip", name);
 		setIsFlipped(!isFlipped);
+	};
+
+	const handleDetailsView = () => {
+		trackEvent("Survey", "details_view", name);
+		handleFlip();
 	};
 
 	return (
@@ -50,6 +61,7 @@ const SurveyCard = ({
 									href={url}
 									target="_blank"
 									rel="noopener noreferrer"
+									onClick={handleSignUp}
 									className="text-sm text-blue-300 hover:text-blue-200 flex items-center gap-1"
 								>
 									Visit <ExternalLink className="w-4 h-4" />
@@ -82,12 +94,13 @@ const SurveyCard = ({
 								href={url}
 								target="_blank"
 								rel="noopener noreferrer"
+								onClick={handleSignUp}
 								className="flex-1 px-4 py-2 bg-[#3f51b5] text-white text-center rounded-lg hover:bg-[#324090]"
 							>
 								Sign Up
 							</a>
 							<button
-								onClick={handleFlip}
+								onClick={handleDetailsView}
 								className="flex-1 px-4 py-2 bg-gray-100 text-gray-900 rounded-lg hover:bg-gray-200"
 							>
 								Details
