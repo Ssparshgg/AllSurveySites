@@ -7,8 +7,6 @@ interface Section {
 	content: React.ReactNode;
 }
 
-const carrotIcon = "/carrot-svgrepo-com.png";
-
 const AboutContent = () => {
 	const [expandedSections, setExpandedSections] = useState<string[]>([]);
 
@@ -85,15 +83,11 @@ const AboutContent = () => {
 							className="w-full px-6 py-4 bg-[rgb(103,103,103)] text-white flex justify-between items-center hover:bg-[rgb(93,93,93)] transition-colors"
 						>
 							<h2 className="text-xl font-semibold">{section.title}</h2>
-							<img
-								src={carrotIcon}
-								alt={
-									expandedSections.includes(section.id) ? "Collapse" : "Expand"
-								}
-								className={`w-5 h-5 transition-transform duration-200 ${
-									expandedSections.includes(section.id) ? "rotate-180" : ""
-								}`}
-							/>
+							{expandedSections.includes(section.id) ? (
+								<ChevronUp className="w-5 h-5" />
+							) : (
+								<ChevronDown className="w-5 h-5" />
+							)}
 						</button>
 						{expandedSections.includes(section.id) && (
 							<div className="px-6 py-4 bg-[rgb(66,66,66)]">
