@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { ChevronDown, ChevronUp } from "lucide-react";
+import { Plus } from "lucide-react";
 
 interface Section {
 	id: string;
@@ -83,11 +83,13 @@ const AboutContent = () => {
 							className="w-full px-6 py-4 bg-[rgb(103,103,103)] text-white flex justify-between items-center hover:bg-[rgb(93,93,93)] transition-colors"
 						>
 							<h2 className="text-xl font-semibold">{section.title}</h2>
-							{expandedSections.includes(section.id) ? (
-								<ChevronUp className="w-5 h-5" />
-							) : (
-								<ChevronDown className="w-5 h-5" />
-							)}
+							<Plus
+								className={`w-6 h-6 transition-all duration-300 ${
+									expandedSections.includes(section.id)
+										? "rotate-45 text-blue-400"
+										: "rotate-0"
+								}`}
+							/>
 						</button>
 						{expandedSections.includes(section.id) && (
 							<div className="px-6 py-4 bg-[rgb(66,66,66)]">
