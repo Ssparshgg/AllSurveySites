@@ -31,6 +31,7 @@ const SAMPLE_DATA = [
 			},
 			"Additional Notes":
 				"Focuses on market research surveys, product testing, online focus groups, and diary studies.",
+			"Guide Link": "https://www.youtube.com",
 		},
 		{
 			"Website Name": "appKarma",
@@ -59,6 +60,7 @@ const SAMPLE_DATA = [
 			},
 			"Additional Notes":
 				"Earn by playing mobile games, completing offers, and answering surveys",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "AttaPoll",
@@ -86,6 +88,7 @@ const SAMPLE_DATA = [
 				Others: [],
 			},
 			"Additional Notes": "Focuses on market research",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "Banana Bucks",
@@ -114,6 +117,7 @@ const SAMPLE_DATA = [
 			},
 			"Additional Notes":
 				"Focuses on general consumer feedback, lifestyle surveys, and market research.",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "BrandBee",
@@ -142,6 +146,7 @@ const SAMPLE_DATA = [
 			},
 			"Additional Notes":
 				"Sharing device usage data, shopping online, market research and day-to-day life",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "Branded Surveys",
@@ -169,6 +174,7 @@ const SAMPLE_DATA = [
 				Others: ["Streak Rewards, Daily Polls"],
 			},
 			"Additional Notes": "Focuses on market research and day-to-day life",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "CashKarma",
@@ -197,6 +203,7 @@ const SAMPLE_DATA = [
 			},
 			"Additional Notes":
 				"Earn by completing surveys and checking in daily; users can unlock higher reward tiers.",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "Crowdtap",
@@ -225,6 +232,7 @@ const SAMPLE_DATA = [
 				Others: ["Daily Rewards, Daily Polls"],
 			},
 			"Additional Notes": "Focuses on market research, and product-testing",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "Drumo",
@@ -253,6 +261,7 @@ const SAMPLE_DATA = [
 			},
 			"Additional Notes":
 				"Offerwalls, Cashbacks, Focuses on market research and day-to-day life",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "Earnably",
@@ -281,6 +290,7 @@ const SAMPLE_DATA = [
 			},
 			"Additional Notes":
 				"Earn by completing surveys, watching videos, and downloading apps.",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "Ebuno",
@@ -309,6 +319,7 @@ const SAMPLE_DATA = [
 			},
 			"Additional Notes":
 				"Offers cashbacks, Points-based system with tiered membership benefits.",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "eRewards",
@@ -337,6 +348,7 @@ const SAMPLE_DATA = [
 			},
 			"Additional Notes":
 				"Focuses on market research and data collection for various industries",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "Eureka",
@@ -365,6 +377,7 @@ const SAMPLE_DATA = [
 			},
 			"Additional Notes":
 				"Focuses primarily on consumer behavior, lifestyle, and general market research surveys.",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "FeaturePoints",
@@ -393,6 +406,7 @@ const SAMPLE_DATA = [
 			},
 			"Additional Notes":
 				"Games, and app trials; users earn cashback for shopping through the app.",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "Five Surveys",
@@ -420,6 +434,7 @@ const SAMPLE_DATA = [
 				Others: [],
 			},
 			"Additional Notes": "Focuses on market research and day-to-day life",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "Focus Group",
@@ -448,6 +463,7 @@ const SAMPLE_DATA = [
 			},
 			"Additional Notes":
 				"Focuses on market research and product testing, 1 on 1 discussions",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "Freecash",
@@ -484,6 +500,7 @@ const SAMPLE_DATA = [
 			},
 			"Additional Notes":
 				"Game offers, Focuses on market research and day-to-day life",
+			"Guide Link": "https://www.youtube.com",
 		},
 		{
 			"Website Name": "FusionCash",
@@ -511,6 +528,7 @@ const SAMPLE_DATA = [
 				Others: [],
 			},
 			"Additional Notes": "Cashback on purchases, Focuses on market research",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "Gift Hunter Club",
@@ -540,6 +558,7 @@ const SAMPLE_DATA = [
 			},
 			"Additional Notes":
 				"Earn by watching videos, completing tasks, and answering surveys.",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "Google Opinion Rewards",
@@ -567,6 +586,7 @@ const SAMPLE_DATA = [
 				Others: ["Opinion Polls"],
 			},
 			"Additional Notes": "Focuses on user behavior and preferences",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "GrabPoints",
@@ -595,6 +615,7 @@ const SAMPLE_DATA = [
 			},
 			"Additional Notes":
 				"Offerwalls, Focuses on market research and day-to-day life",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "Happy Surveys",
@@ -623,6 +644,7 @@ const SAMPLE_DATA = [
 			},
 			"Additional Notes":
 				"Offerwalls, Focuses on general consumer feedback, lifestyle, and market research.",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "Harris Poll Online",
@@ -651,6 +673,7 @@ const SAMPLE_DATA = [
 			},
 			"Additional Notes":
 				"Surveys focused on political, societal, and consumer opinions.",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "HeyCash",
@@ -679,6 +702,7 @@ const SAMPLE_DATA = [
 			},
 			"Additional Notes":
 				"Game offers, Focuses on market research and day-to-day life",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "HeyPiggy",
@@ -706,6 +730,7 @@ const SAMPLE_DATA = [
 				Others: [],
 			},
 			"Additional Notes": "Focuses on market research and day-to-day life",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "InboxDollars",
@@ -734,6 +759,7 @@ const SAMPLE_DATA = [
 			},
 			"Additional Notes":
 				"Offers surveys, games, and cashback; includes sign-up bonuses and streak incentives.",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "InboxPays",
@@ -762,6 +788,7 @@ const SAMPLE_DATA = [
 			},
 			"Additional Notes":
 				"Earn by surveys, paid offers, reading emails, and participating in contests",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "InboxPounds",
@@ -790,6 +817,7 @@ const SAMPLE_DATA = [
 			},
 			"Additional Notes":
 				"Additional earning options such as reading paid emails, playing games, cashback shopping",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "Ipsos i-Say",
@@ -817,6 +845,7 @@ const SAMPLE_DATA = [
 				Others: ["Loyalty Rewards Program"],
 			},
 			"Additional Notes": "Focuses on market research and day-to-day life",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "LifePoints",
@@ -845,6 +874,7 @@ const SAMPLE_DATA = [
 			},
 			"Additional Notes":
 				"Offers surveys across various categories, including consumer opinions and travel.",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "LootUp",
@@ -872,6 +902,7 @@ const SAMPLE_DATA = [
 				Others: [],
 			},
 			"Additional Notes": "Offers surveys, videos, and pay-to-click ads",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "Lyssna",
@@ -900,6 +931,7 @@ const SAMPLE_DATA = [
 			},
 			"Additional Notes":
 				"Focuses on market research and product to user testing",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "Milieu Surveys",
@@ -927,6 +959,7 @@ const SAMPLE_DATA = [
 				Others: ["Daily Polls, Leaderboard Rankings, Streak Rewards"],
 			},
 			"Additional Notes": "Focused on societal and consumer insights.",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "MobileXpression",
@@ -955,6 +988,7 @@ const SAMPLE_DATA = [
 			},
 			"Additional Notes":
 				"Earn rewards for allowing the app to monitor browsing habits.",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "Mobrog",
@@ -982,6 +1016,7 @@ const SAMPLE_DATA = [
 				Others: [],
 			},
 			"Additional Notes": "Surveys focus on market research topics",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "MyPoints",
@@ -1010,6 +1045,7 @@ const SAMPLE_DATA = [
 			},
 			"Additional Notes":
 				"Earn points from surveys, shopping, and reading emails",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "MySoapBox",
@@ -1038,6 +1074,7 @@ const SAMPLE_DATA = [
 				Others: [],
 			},
 			"Additional Notes": "Offers surveys, product-testing and focus groups",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "MyView",
@@ -1065,6 +1102,7 @@ const SAMPLE_DATA = [
 				Others: [],
 			},
 			"Additional Notes": "Focuses on market research",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "Nielsen",
@@ -1093,6 +1131,7 @@ const SAMPLE_DATA = [
 			},
 			"Additional Notes":
 				"Rewards users for sharing browsing habits; includes sweepstakes entries.",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "Nortstatpanel",
@@ -1121,6 +1160,7 @@ const SAMPLE_DATA = [
 			},
 			"Additional Notes":
 				"Focuses on the societal influence of participants' opinions",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "Opinion Bureau",
@@ -1148,6 +1188,7 @@ const SAMPLE_DATA = [
 				Others: [],
 			},
 			"Additional Notes": "Surveys focused on societal and consumer trends.",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "Opinion Edge",
@@ -1175,6 +1216,7 @@ const SAMPLE_DATA = [
 				Others: ["Compensates Disqualification"],
 			},
 			"Additional Notes": "Focuses on market research",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "Opinion Outpost",
@@ -1203,6 +1245,7 @@ const SAMPLE_DATA = [
 			},
 			"Additional Notes":
 				"Offers frequent surveys with low minimum payout thresholds.",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "Opinion World",
@@ -1230,6 +1273,7 @@ const SAMPLE_DATA = [
 				Others: ["Quarterly prize draws"],
 			},
 			"Additional Notes": "Focuses on market research",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "OpinionPioneer",
@@ -1257,6 +1301,7 @@ const SAMPLE_DATA = [
 				Others: ["Compensates Disqualification"],
 			},
 			"Additional Notes": "Focuses on market research and day-to-day life",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "PaidViewPoint",
@@ -1284,6 +1329,7 @@ const SAMPLE_DATA = [
 				Others: ["TraitScore System"],
 			},
 			"Additional Notes": "Focuses on market research and day-to-day life",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "Panda Research",
@@ -1311,6 +1357,7 @@ const SAMPLE_DATA = [
 				Others: [],
 			},
 			"Additional Notes": "Focus on market research, Offers paid email reading",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "Panel Champ",
@@ -1338,6 +1385,7 @@ const SAMPLE_DATA = [
 				Others: [],
 			},
 			"Additional Notes": "Focuses on market research",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "Pawns.app",
@@ -1366,6 +1414,7 @@ const SAMPLE_DATA = [
 			},
 			"Additional Notes":
 				"Bandwidth Sharing, Game offers, Focuses on market research and day-to-day life",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "PineCone Research",
@@ -1397,6 +1446,7 @@ const SAMPLE_DATA = [
 				Others: ["Invitation-only"],
 			},
 			"Additional Notes": "Focuses on market research & product testing",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "PointClub",
@@ -1425,6 +1475,7 @@ const SAMPLE_DATA = [
 			},
 			"Additional Notes":
 				"Offers higher payouts for survey streaks; surveys focus on various topics.",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "Points2Shop",
@@ -1452,6 +1503,7 @@ const SAMPLE_DATA = [
 				Others: [],
 			},
 			"Additional Notes": "Focuses on market research",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "Poll Pay",
@@ -1480,6 +1532,7 @@ const SAMPLE_DATA = [
 			},
 			"Additional Notes":
 				"Focused on market research, consumer goods, technology trends, and entertainment",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "Prime Opinion",
@@ -1507,6 +1560,7 @@ const SAMPLE_DATA = [
 				Others: [],
 			},
 			"Additional Notes": "Focuses on market research and day-to-day life",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "PrizeRebel",
@@ -1535,6 +1589,7 @@ const SAMPLE_DATA = [
 			},
 			"Additional Notes":
 				"Offerwalls, Focuses on market research and day-to-day life",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "Product Report Card",
@@ -1563,6 +1618,7 @@ const SAMPLE_DATA = [
 			},
 			"Additional Notes":
 				"Surveys focused on product testing and detailed consumer feedback.",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "Prolific",
@@ -1590,6 +1646,7 @@ const SAMPLE_DATA = [
 				Others: ["Studies/Interviews"],
 			},
 			"Additional Notes": "Academic Research Focus",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "Qmee",
@@ -1617,6 +1674,7 @@ const SAMPLE_DATA = [
 				Others: ["Browser Extension"],
 			},
 			"Additional Notes": "Offers cashback and deals when shopping online",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "QuickThoughts",
@@ -1644,6 +1702,7 @@ const SAMPLE_DATA = [
 				Others: [],
 			},
 			"Additional Notes": "Focuses on market research",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "RedMonkey",
@@ -1672,6 +1731,7 @@ const SAMPLE_DATA = [
 			},
 			"Additional Notes":
 				"Focused on opinion sharing; offers high survey frequency with decent pay",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "Respondent",
@@ -1699,6 +1759,7 @@ const SAMPLE_DATA = [
 				Others: ["Studies/Interviews"],
 			},
 			"Additional Notes": "Product tests, Focus groups, and Usability studies",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "Reward XP",
@@ -1727,6 +1788,7 @@ const SAMPLE_DATA = [
 			},
 			"Additional Notes":
 				"Offerwalls, Videos, Focuses on market research and day-to-day life",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "Rewards1",
@@ -1754,6 +1816,7 @@ const SAMPLE_DATA = [
 				Others: [],
 			},
 			"Additional Notes": "Offers, and watching videos",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "SayMore",
@@ -1781,6 +1844,7 @@ const SAMPLE_DATA = [
 				Others: [],
 			},
 			"Additional Notes": "iOS/Android/Web",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "SpiderMetrix",
@@ -1808,6 +1872,7 @@ const SAMPLE_DATA = [
 				Others: ["Quickies (Short Surveys)"],
 			},
 			"Additional Notes": "Focuses on market research",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "Superpay.me",
@@ -1836,6 +1901,7 @@ const SAMPLE_DATA = [
 			},
 			"Additional Notes":
 				"Offers instant payment options; includes tasks like surveys, videos, and contests.",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "Surveoo",
@@ -1863,6 +1929,7 @@ const SAMPLE_DATA = [
 				Others: ["Achievement Rewards"],
 			},
 			"Additional Notes": "Focuses on market research",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "Survey Club",
@@ -1891,6 +1958,7 @@ const SAMPLE_DATA = [
 			},
 			"Additional Notes":
 				"Focus groups, clinical trials, in-home usage tests; Aggregates survey opportunities from multiple sources",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "Survey Junkie",
@@ -1918,6 +1986,7 @@ const SAMPLE_DATA = [
 				Others: [],
 			},
 			"Additional Notes": "Focuses on market research",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "Survey Pop",
@@ -1947,6 +2016,7 @@ const SAMPLE_DATA = [
 			},
 			"Additional Notes":
 				"Focuses on general consumer insights, lifestyle, and market research surveys.",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "Survey Savvy",
@@ -1974,6 +2044,7 @@ const SAMPLE_DATA = [
 				Others: ["Earn $3 by installing SavvyConnect"],
 			},
 			"Additional Notes": "Focuses on market research",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "Survey Spin",
@@ -2003,6 +2074,7 @@ const SAMPLE_DATA = [
 			},
 			"Additional Notes":
 				"Focuses on consumer behavior, market research, and product feedback surveys.",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "Surveyeah",
@@ -2031,6 +2103,7 @@ const SAMPLE_DATA = [
 			},
 			"Additional Notes":
 				"Offers surveys related to consumer habits and opinions",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "SurveyLama",
@@ -2058,6 +2131,7 @@ const SAMPLE_DATA = [
 				Others: [],
 			},
 			"Additional Notes": "Catered toward global users",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "SurveyMagic",
@@ -2086,6 +2160,7 @@ const SAMPLE_DATA = [
 			},
 			"Additional Notes":
 				"Focuses consumer habits, product feedback, entertainment preferences, and lifestyle trends",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "Surveys on the Go",
@@ -2114,6 +2189,7 @@ const SAMPLE_DATA = [
 			},
 			"Additional Notes":
 				"Focuses on shopping habits, media preferences, and detailed consumer opinions.",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "Surveys2Cash",
@@ -2142,6 +2218,7 @@ const SAMPLE_DATA = [
 			},
 			"Additional Notes":
 				"Aggregates surveys from multiple providers, be cautious of potential spam",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "Surveytime",
@@ -2170,6 +2247,7 @@ const SAMPLE_DATA = [
 				Others: ["Daily Streaks & Rewards, Atom System"],
 			},
 			"Additional Notes": "Focuses on market research",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "Survimo",
@@ -2197,6 +2275,7 @@ const SAMPLE_DATA = [
 				Others: [],
 			},
 			"Additional Notes": "Focuses on market research",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "Swagbucks",
@@ -2225,6 +2304,7 @@ const SAMPLE_DATA = [
 			},
 			"Additional Notes":
 				"Offerwalls, Cashback, Videos, Focuses on market research and day-to-day life",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "Talk Online Panel",
@@ -2252,6 +2332,7 @@ const SAMPLE_DATA = [
 				Others: [],
 			},
 			"Additional Notes": "Focuses on market research",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "TaskBucks",
@@ -2279,6 +2360,7 @@ const SAMPLE_DATA = [
 				Others: ["Daily Bonuses"],
 			},
 			"Additional Notes": "Surveys, app downloads, contests",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "Tellwut",
@@ -2307,6 +2389,7 @@ const SAMPLE_DATA = [
 			},
 			"Additional Notes":
 				"Earn by creating surveys and participating in others' surveys.",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "TGM Panel",
@@ -2334,6 +2417,7 @@ const SAMPLE_DATA = [
 				Others: ["Compensates Disqualification"],
 			},
 			"Additional Notes": "Focuses on market research",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "The Opinion Panel",
@@ -2361,6 +2445,7 @@ const SAMPLE_DATA = [
 				Others: [],
 			},
 			"Additional Notes": "Focused on topics relevant to young people",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "The Panel Station",
@@ -2389,6 +2474,7 @@ const SAMPLE_DATA = [
 			},
 			"Additional Notes":
 				"Targets developing markets; offers both local and global surveys.",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "Timebucks",
@@ -2417,6 +2503,7 @@ const SAMPLE_DATA = [
 			},
 			"Additional Notes":
 				"Offerwalls, Videos, Focuses on market research and day-to-day life",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "Toluna Influencers",
@@ -2444,6 +2531,7 @@ const SAMPLE_DATA = [
 				Others: ["Daily Polls, Games, Contests"],
 			},
 			"Additional Notes": "Focuses on global users with varied interests",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "Triaba",
@@ -2471,6 +2559,7 @@ const SAMPLE_DATA = [
 				Others: [],
 			},
 			"Additional Notes": "Focus on market research",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "Unlock Surveys",
@@ -2498,6 +2587,7 @@ const SAMPLE_DATA = [
 				Others: [],
 			},
 			"Additional Notes": "Focus on market research",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "User Interviews",
@@ -2525,6 +2615,7 @@ const SAMPLE_DATA = [
 				Others: ["Studies/Interviews"],
 			},
 			"Additional Notes": "Product tests, Focus groups, and Usability studies",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "Valued Opinions",
@@ -2552,6 +2643,7 @@ const SAMPLE_DATA = [
 				Others: [],
 			},
 			"Additional Notes": "Focuses on market research",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "Viewfruit",
@@ -2579,6 +2671,7 @@ const SAMPLE_DATA = [
 				Others: ["Lucky Draw, Polls"],
 			},
 			"Additional Notes": "Focuses on market research",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "YouGov",
@@ -2606,6 +2699,7 @@ const SAMPLE_DATA = [
 				Others: [],
 			},
 			"Additional Notes": "Focuses on market research",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "ySense",
@@ -2634,6 +2728,7 @@ const SAMPLE_DATA = [
 			},
 			"Additional Notes":
 				"Watching videos, playing games, and referrals; offers bonuses for consistent activity",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "ZoomBucks",
@@ -2661,6 +2756,7 @@ const SAMPLE_DATA = [
 				Others: [],
 			},
 			"Additional Notes": "Watching videos and completing offers",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "Nicequest",
@@ -2693,6 +2789,7 @@ const SAMPLE_DATA = [
 				Others: [],
 			},
 			"Additional Notes": "High-quality rewards but no monetary compensation",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "Bzzagent",
@@ -2721,6 +2818,7 @@ const SAMPLE_DATA = [
 			},
 			"Additional Notes":
 				"Focuses on market research and product testing, the product is your reward",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "Shopper's Voice",
@@ -2749,6 +2847,7 @@ const SAMPLE_DATA = [
 			},
 			"Additional Notes":
 				"Focuses on consumer product feedback; participants receive tailored offers.",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "National Consumer Panel",
@@ -2777,6 +2876,7 @@ const SAMPLE_DATA = [
 			},
 			"Additional Notes":
 				"Sharing shopping habits; rewards are based on scanning purchases rather than surveys",
+			"Guide Link": undefined,
 		},
 	],
 ];
@@ -2829,6 +2929,7 @@ const SurveyGrid = () => {
 							...survey["Special Features"].Others,
 						]}
 						notes={survey["Additional Notes"]}
+						guideLink={survey["Guide Link"]}
 					/>
 				))}
 			</div>
