@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { ExternalLink } from "lucide-react";
+// import { ExternalLink } from "lucide-react";
 import { trackEvent } from "../utils/analytics";
 
 interface SurveyCardProps {
@@ -24,7 +24,7 @@ const SurveyCard = ({
 	url,
 	minPayout,
 	avgPay,
-	frequency,
+	// frequency,
 	paymentMethods,
 	requirements,
 	specialFeatures,

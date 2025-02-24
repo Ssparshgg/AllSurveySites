@@ -14,7 +14,7 @@ const Header = () => {
 				<div className="relative flex justify-center">
 					<div className="flex flex-col items-center">
 						<h1 className="text-3xl font-bold text-white">
-							All Survey Websites
+							Every Survey Website
 						</h1>
 						<p className="text-gray-300 mt-1">
 							No Ad, No Affiliates, No Fluff.
