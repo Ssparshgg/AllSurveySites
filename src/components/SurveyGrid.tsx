@@ -2684,7 +2684,7 @@ const SAMPLE_DATA = [
 			},
 			"Payment Methods": ["Bank Transfer", "Gift Cards"],
 			"Minimum Payout": {
-				Other: "$20 to $50 (Location Dependant)",
+				Other: "$5",
 			},
 			"Average Pay Per Survey": {
 				Min: "$0.10",
