@@ -16,46 +16,44 @@ const AboutContent = () => {
 			title: "Our Mission",
 			content: (
 				<p className="text-gray-300">
-					We aim to provide a comprehensive, unbiased directory of legitimate
-					survey websites. Our platform helps users find reliable opportunities
-					to earn money through online surveys, without the clutter of
-					advertisements or affiliate marketing.
+					At EverySurve.Website, our mission is to help users find trustworthy
+					and rewarding survey opportunities online. We aim to provide a
+					comprehensive and transparent platform where individuals can explore
+					top-rated survey websites based on real user feedback. By delivering
+					valuable information, we empower our visitors to make informed
+					decisions and maximize their survey-taking experience.
 				</p>
 			),
 		},
 		{
-			id: "offer",
-			title: "What We Offer",
+			id: "ranking",
+			title: "Ranking Method",
 			content: (
-				<ul className="list-disc list-inside text-gray-300 space-y-2">
-					<li>Curated list of verified survey websites</li>
-					<li>Transparent ratings and reviews</li>
-					<li>
-						Detailed information about payment methods and minimum payouts
-					</li>
-					<li>Regular updates to maintain accuracy</li>
-					<li>No affiliate links or sponsored content</li>
-				</ul>
+				<p className="text-gray-300">
+					Our ranking system uses a sophisticated algorithm that evaluates
+					survey websites based on a variety of public feedback sources,
+					including TrustPilot reviews, App Store ratings, and Play Store
+					reviews. We ensure that the rankings reflect not only the overall user
+					experience but also the reliability and credibility of each platform.
+					This method allows us to present an up-to-date and unbiased view of
+					the best survey sites available to help you choose with confidence.
+				</p>
 			),
 		},
 		{
-			id: "values",
-			title: "Our Values",
+			id: "trust",
+			title: "Why Trust Us",
 			content: (
-				<div className="text-gray-300">
-					<p className="mb-4">
-						<strong>Transparency:</strong> We provide honest, unbiased
-						information about every survey platform.
-					</p>
-					<p className="mb-4">
-						<strong>Quality:</strong> We carefully verify and review each
-						website before listing it.
-					</p>
-					<p>
-						<strong>User-First:</strong> Our recommendations are based on user
-						experience and reliability.
-					</p>
-				</div>
+				<p className="text-gray-300">
+					At EverySurve.Website, we pride ourselves on providing clear, unbiased
+					information without any distractions. Our site is free from ads,
+					affiliate links, and unnecessary fluff, ensuring that you get straight
+					to the facts. We focus solely on presenting reliable survey website
+					rankings based on real user reviews, so you can trust that the
+					recommendations are genuine and impartial. Your experience is our top
+					priority, and we are committed to delivering only the most relevant,
+					accurate insights.
+				</p>
 			),
 		},
 	];
