@@ -31,7 +31,7 @@ const SAMPLE_DATA = [
 			},
 			"Additional Notes":
 				"Focuses on market research surveys, product testing, online focus groups, and diary studies.",
-			"Guide Link": "https://www.youtube.com",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "appKarma",
@@ -500,7 +500,7 @@ const SAMPLE_DATA = [
 			},
 			"Additional Notes":
 				"Game offers, Focuses on market research and day-to-day life",
-			"Guide Link": "https://www.youtube.com",
+			"Guide Link": undefined,
 		},
 		{
 			"Website Name": "FusionCash",
