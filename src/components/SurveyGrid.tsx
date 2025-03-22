@@ -6,6 +6,7 @@ const SAMPLE_DATA = [
 	[
 		{
 			"Website Name": "American Consumer Opinion",
+			priority: 2,
 			"Trustpilot Ratings": "2.1",
 			"Website URL": "https://acop.com/",
 			"Registration Requirements": {
@@ -2619,6 +2620,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "Valued Opinions",
+			priority: 1,
 			"Trustpilot Ratings": "4.4",
 			"Website URL": "https://www.valuedopinions.com/",
 			"Registration Requirements": {
@@ -2880,16 +2882,25 @@ const SAMPLE_DATA = [
 		},
 	],
 ];
-//changes
+
 const SurveyGrid = () => {
 	const [surveys] = useState(() => {
 		return SAMPLE_DATA[0].sort((a, b) => {
-			// Convert ratings to numbers for comparison
-			const ratingA = parseFloat(a["Trustpilot Ratings"]) || 0;
-			const ratingB = parseFloat(b["Trustpilot Ratings"]) || 0;
+			// Add priority property if it doesn't exist
+			const priorityA = (a as any).priority || 0;
+			const priorityB = (b as any).priority || 0;
 
-			// Sort by rating in descending order
-			return ratingB - ratingA;
+			// If both items have priority 0, sort by Trustpilot rating
+			if (priorityA === 0 && priorityB === 0) {
+				const ratingA = parseFloat(a["Trustpilot Ratings"]) || 0;
+				const ratingB = parseFloat(b["Trustpilot Ratings"]) || 0;
+				return ratingB - ratingA;
+			}
+
+			// If one or both items have non-zero priority, sort by priority
+			if (priorityA === 0) return 1; // Items with priority 0 go last
+			if (priorityB === 0) return -1; // Items with priority 0 go last
+			return priorityA - priorityB; // Lower priority number shows first
 		});
 	});
 
