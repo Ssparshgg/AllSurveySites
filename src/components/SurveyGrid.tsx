@@ -6,7 +6,7 @@ const SAMPLE_DATA = [
 	[
 		{
 			"Website Name": "American Consumer Opinion",
-			priority: 2,
+			priority: 0,
 			"Trustpilot Ratings": "2.1",
 			"Website URL": "https://acop.com/",
 			"Registration Requirements": {
@@ -122,6 +122,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "BrandBee",
+			priority: 2,
 			"Trustpilot Ratings": "0",
 			"Website URL": "https://www.brandbee.io/",
 			"Registration Requirements": {
@@ -2021,6 +2022,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "Survey Savvy",
+			priority: 1,
 			"Trustpilot Ratings": "3",
 			"Website URL": "https://surveysavvy.com/",
 			"Registration Requirements": {
@@ -2620,7 +2622,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "Valued Opinions",
-			priority: 1,
+			priority: 0,
 			"Trustpilot Ratings": "4.4",
 			"Website URL": "https://www.valuedopinions.com/",
 			"Registration Requirements": {
