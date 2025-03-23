@@ -2888,21 +2888,18 @@ const SAMPLE_DATA = [
 const SurveyGrid = () => {
 	const [surveys] = useState(() => {
 		return SAMPLE_DATA[0].sort((a, b) => {
-			// Add priority property if it doesn't exist
 			const priorityA = (a as any).priority || 0;
 			const priorityB = (b as any).priority || 0;
 
-			// If both items have priority 0, sort by Trustpilot rating
 			if (priorityA === 0 && priorityB === 0) {
 				const ratingA = parseFloat(a["Trustpilot Ratings"]) || 0;
 				const ratingB = parseFloat(b["Trustpilot Ratings"]) || 0;
 				return ratingB - ratingA;
 			}
 
-			// If one or both items have non-zero priority, sort by priority
-			if (priorityA === 0) return 1; // Items with priority 0 go last
-			if (priorityB === 0) return -1; // Items with priority 0 go last
-			return priorityA - priorityB; // Lower priority number shows first
+			if (priorityA === 0) return 1;
+			if (priorityB === 0) return -1;
+			return priorityA - priorityB;
 		});
 	});
 
