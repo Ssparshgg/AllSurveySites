@@ -6,7 +6,6 @@ const SAMPLE_DATA = [
 	[
 		{
 			"Website Name": "American Consumer Opinion",
-			priority: 0,
 			"Trustpilot Ratings": "2.1",
 			"Website URL": "https://acop.com/",
 			"Registration Requirements": {
@@ -122,7 +121,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "BrandBee",
-			priority: 2,
+			priority: 1,
 			"Trustpilot Ratings": "0",
 			"Website URL": "https://www.brandbee.io/",
 			"Registration Requirements": {
@@ -564,6 +563,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "Google Opinion Rewards",
+			priority: 4,
 			"Trustpilot Ratings": "Not listed",
 			"Website URL": "https://surveys.google.com/google-opinion-rewards/",
 			"Registration Requirements": {
@@ -2022,7 +2022,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "Survey Savvy",
-			priority: 1,
+			priority: 3,
 			"Trustpilot Ratings": "3",
 			"Website URL": "https://surveysavvy.com/",
 			"Registration Requirements": {
@@ -2282,6 +2282,7 @@ const SAMPLE_DATA = [
 		},
 		{
 			"Website Name": "Swagbucks",
+			priority: 2,
 			"Trustpilot Ratings": "4",
 			"Website URL": "https://www.swagbucks.com/",
 			"Registration Requirements": {
